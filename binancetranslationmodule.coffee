@@ -22,6 +22,10 @@ relevantAssets = [
     {
         binanceName: "USDC",
         ourName: "usdc"
+    },
+    {
+        binanceName: "BNB",
+        ourName: "binancecoin"
     }
 ]
 
@@ -39,10 +43,10 @@ relevantAssetPairs = [
         binanceName: "EURUSDT"
         ourName: "euro-usdt"
     },
-    # { ## does not exist
-    #     binanceName: "EURUSDC"
-    #     ourName: "euro-usdc"
-    # },
+    {
+        binanceName: "BNBETH"
+        ourName: "binancecoin-ether"
+    },
     {
         binanceName: "ETHUSDC"
         ourName: "ether-usdc"
