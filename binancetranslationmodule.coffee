@@ -8,25 +8,30 @@ log = (arg) ->
 #region assetConfig
 relevantAssets = [
     {
-        binanceName: "ETH",
-        ourName: "ether"
-    },
-    {
         binanceName: "EUR",
         ourName: "euro"
     },
     {
-        binanceName: "USDT",
-        ourName: "usdt"
+        binanceName: "BTC",
+        ourName: "bitcoin"
     },
     {
-        binanceName: "USDC",
-        ourName: "usdc"
+        binanceName: "ETH",
+        ourName: "ether"
     },
     {
-        binanceName: "BNB",
-        ourName: "binancecoin"
+        binanceName: "LINK",
+        ourName: "link"
+    },
+    {
+        binanceName: "BNT",
+        ourName: "bancor"
+    },
+    {
+        binanceName: "UNI",
+        ourName: "uni"
     }
+
 ]
 
 ############################################################
@@ -36,25 +41,35 @@ relevantAssetPairs = [
         ourName: "ether-euro"
     },
     {
-        binanceName: "ETHUSDT"
-        ourName: "ether-usdt"
+        binanceName: "BTCEUR"
+        ourName: "bitcoin-euro"
     },
     {
-        binanceName: "EURUSDT"
-        ourName: "euro-usdt"
+        binanceName: "ETHBTC"
+        ourName: "ether-bitcoin"
     },
     {
-        binanceName: "BNBETH"
-        ourName: "binancecoin-ether"
+        binanceName: "LINKBTC"
+        ourName: "link-bitcoin"
     },
     {
-        binanceName: "ETHUSDC"
-        ourName: "ether-usdc"
+        binanceName: "BNTBTC"
+        ourName: "bancor-bitcoin"
     },
     {
-        binanceName: "USDCUSDT"
-        ourName: "usdc-usdt"
+        binanceName: "UNIBTC"
+        ourName: "uni-bitcoin"
+
+    },
+    {
+        binanceName: "LINKETH"
+        ourName: "link-ether"
+    },
+    {
+        binanceName: "BNTETH"
+        ourName: "bancor-ether"
     }
+
 ]
 
 #endregion
