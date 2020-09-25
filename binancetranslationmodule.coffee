@@ -20,6 +20,10 @@ relevantAssets = [
         ourName: "ether"
     },
     {
+        binanceName: "WBTC",
+        ourName: "wrappedbitcoin"
+    },
+    {
         binanceName: "LINK",
         ourName: "link"
     },
@@ -68,6 +72,10 @@ relevantAssetPairs = [
     {
         binanceName: "BNTETH"
         ourName: "bancor-ether"
+    },
+    {
+        binanceName: "WBTCETH"
+        ourName: "wrappedbitcoin-ether"
     }
 
 ]
