@@ -7,6 +7,11 @@ log = (arg) ->
 ############################################################
 #region assetConfig
 relevantAssets = [
+    
+    {
+        binanceName: "USDT",
+        ourName: "usdt"
+    },
     {
         binanceName: "EUR",
         ourName: "euro"
@@ -34,12 +39,52 @@ relevantAssets = [
     {
         binanceName: "UNI",
         ourName: "uni"
+    },
+    {
+        binanceName: "DOT",
+        ourName: "polkadot"
+    },
+    {
+        binanceName: "SNX",
+        ourName: "synthetix"
     }
 
 ]
 
 ############################################################
 relevantAssetPairs = [
+    {
+        binanceName: "BNTUSDT"
+        ourName: "bancor-usdt"
+    },
+    {
+        binanceName: "BTCUSDT"
+        ourName: "bitcoin-usdt"
+    },
+    {
+        binanceName: "DOTUSDT"
+        ourName: "polkadot-usdt"
+    },
+    {
+        binanceName: "ETHUSDT"
+        ourName: "ether-usdt"
+    },
+    {
+        binanceName: "EURUSDT"
+        ourName: "euro-usdt"
+    },
+    {
+        binanceName: "LINKUSDT"
+        ourName: "link-usdt"
+    },
+    {
+        binanceName: "SNXUSDT"
+        ourName: "synthetix-usdt"
+    },
+    {
+        binanceName: "UNIUSDT"
+        ourName: "uni-usdt"
+    },
     {
         binanceName: "ETHEUR"
         ourName: "ether-euro"
@@ -53,12 +98,20 @@ relevantAssetPairs = [
         ourName: "ether-bitcoin"
     },
     {
+        binanceName: "BNTBTC"
+        ourName: "bancor-bitcoin"
+    },
+    {
+        binanceName: "DOTBTC"
+        ourName: "polkadot-bitcoin"
+    },
+    {
         binanceName: "LINKBTC"
         ourName: "link-bitcoin"
     },
     {
-        binanceName: "BNTBTC"
-        ourName: "bancor-bitcoin"
+        binanceName: "SNXBTC"
+        ourName: "synthetix-bitcoin"
     },
     {
         binanceName: "UNIBTC"
@@ -66,12 +119,17 @@ relevantAssetPairs = [
 
     },
     {
-        binanceName: "LINKETH"
-        ourName: "link-ether"
+        binanceName: "WBTCBTC"
+        ourName: "wrappedbitcoin-bitcoin"
+
     },
     {
         binanceName: "BNTETH"
         ourName: "bancor-ether"
+    },
+    {
+        binanceName: "LINKETH"
+        ourName: "link-ether"
     },
     {
         binanceName: "WBTCETH"
